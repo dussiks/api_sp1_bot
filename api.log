@@ -1,0 +1,104 @@
+2021-02-07 22:48:41,329, DEBUG, __main__, Инициализация Telegram-бота
+2021-02-07 22:48:41,581, DEBUG, telegram.bot, Entering: send_message
+2021-02-07 22:48:41,581, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-07 22:48:41,850, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 693
+2021-02-07 22:48:41,852, DEBUG, telegram.bot, {'message_id': 39, 'date': 1612720121, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-07 22:48:41,853, DEBUG, telegram.bot, Exiting: send_message
+2021-02-07 22:48:41,853, INFO, __main__, Сообщение отправлено ботом в чат
+2021-02-07 22:55:30,280, DEBUG, __main__, Инициализация Telegram-бота
+2021-02-07 22:55:30,577, ERROR, __main__, Ошибка: Expecting value: line 1 column 1 (char 0)
+2021-02-07 22:55:35,778, ERROR, __main__, Ошибка: Expecting value: line 1 column 1 (char 0)
+2021-02-07 22:55:40,987, ERROR, __main__, Ошибка: Expecting value: line 1 column 1 (char 0)
+2021-02-07 22:55:46,183, ERROR, __main__, Ошибка: Expecting value: line 1 column 1 (char 0)
+2021-02-07 22:55:51,188, ERROR, __main__, Превышен лимит на количество ошибок
+2021-02-07 22:55:51,188, DEBUG, telegram.bot, Entering: send_message
+2021-02-07 22:55:51,189, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-07 22:55:51,501, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 508
+2021-02-07 22:55:51,503, DEBUG, telegram.bot, {'message_id': 40, 'date': 1612720551, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Много ошибок подряд. Пауза с запросами на заданное время.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-07 22:55:51,503, DEBUG, telegram.bot, Exiting: send_message
+2021-02-07 22:55:51,504, INFO, __main__, Сообщение отправлено ботом в чат
+2021-02-07 23:20:02,515, DEBUG, __main__, Telegram-bot initialization
+2021-02-07 23:20:02,807, DEBUG, telegram.bot, Entering: send_message
+2021-02-07 23:20:02,807, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-07 23:20:03,081, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 693
+2021-02-07 23:20:03,082, DEBUG, telegram.bot, {'message_id': 41, 'date': 1612722003, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-07 23:20:03,082, DEBUG, telegram.bot, Exiting: send_message
+2021-02-07 23:26:33,751, DEBUG, __main__, Telegram-bot initializated
+2021-02-07 23:26:34,012, DEBUG, telegram.bot, Entering: send_message
+2021-02-07 23:26:34,012, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-07 23:26:34,284, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 220
+2021-02-07 23:26:34,284, DEBUG, telegram.bot, {'message_id': 42, 'date': 1612722394, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'null', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-07 23:26:34,284, DEBUG, telegram.bot, Exiting: send_message
+2021-02-07 23:42:09,604, DEBUG, __main__, Telegram-bot initializated
+2021-02-07 23:42:09,934, DEBUG, telegram.bot, Entering: send_message
+2021-02-07 23:42:09,934, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-07 23:42:10,247, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 693
+2021-02-07 23:42:10,247, DEBUG, telegram.bot, {'message_id': 43, 'date': 1612723330, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-07 23:42:10,247, DEBUG, telegram.bot, Exiting: send_message
+2021-02-07 23:42:29,422, DEBUG, __main__, Telegram-bot initializated
+2021-02-07 23:42:29,653, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 71, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 40, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-07 23:42:34,873, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 71, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 40, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-07 23:42:40,121, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 71, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 40, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-07 23:42:45,326, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 71, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 40, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-07 23:42:50,331, ERROR, __main__, Error's limit excedde
+2021-02-07 23:42:50,331, DEBUG, telegram.bot, Entering: send_message
+2021-02-07 23:42:50,331, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-07 23:42:50,583, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 268
+2021-02-07 23:42:50,583, DEBUG, telegram.bot, {'message_id': 44, 'date': 1612723370, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error's limit exceede. Time-out for pointed duration", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-07 23:42:50,583, DEBUG, telegram.bot, Exiting: send_message
