@@ -14,7 +14,7 @@ PRAKTIKUM_TOKEN = os.getenv("PRAKTIKUM_TOKEN")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 YP_URL = "https://praktikum.yandex.ru/api/user_api/homework_statuses/"
-ERRORS_LIMIT = 20
+ERRORS_LIMIT = 10
 bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
 
 
@@ -49,11 +49,11 @@ def get_homework_statuses(current_timestamp=None):
         "from_date": current_timestamp,
     }
     try:
-        homework_statuses = requests.get(YP_URL, params=params, headers=headers)
+        hw_statuses = requests.get(YP_URL, params=params, headers=headers)
     except requests.exceptions.RequestException as e:
         logger.error(f"Error in connection with Yandex url: {e}")
     else:
-        return homework_statuses.json()
+        return hw_statuses.json()
 
 
 def parse_homework_status(homework):
@@ -96,6 +96,7 @@ def main():
         except Exception as e:
             errors_counter += 1
             logger.error(f"Error: {e}")
+            print(errors_counter)
             time.sleep(3)
             if errors_counter > ERRORS_LIMIT:
                 logger.error("Error's limit exceeded. Time-out for set time")

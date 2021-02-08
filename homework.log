@@ -512,3 +512,97 @@ AttributeError: 'NoneType' object has no attribute 'get'
 2021-02-09 01:58:47,969, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 693
 2021-02-09 01:58:47,969, DEBUG, telegram.bot, {'message_id': 97, 'date': 1612817927, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
 2021-02-09 01:58:47,969, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:04:31,684, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 02:05:01,464, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 02:06:46,275, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 02:08:02,318, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 02:08:02,544, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:02,545, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 02:08:02,774, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 264
+2021-02-09 02:08:02,774, DEBUG, telegram.bot, {'message_id': 98, 'date': 1612818481, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:02,774, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:02,544, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:08:06,004, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:06,207, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 264
+2021-02-09 02:08:06,207, DEBUG, telegram.bot, {'message_id': 99, 'date': 1612818485, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:06,207, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:06,004, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:08:09,438, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:09,532, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:08:09,532, DEBUG, telegram.bot, {'message_id': 100, 'date': 1612818488, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:09,532, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:09,438, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:08:12,762, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:12,840, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:08:12,856, DEBUG, telegram.bot, {'message_id': 101, 'date': 1612818492, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:12,856, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:12,762, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:08:16,071, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:16,164, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:08:16,164, DEBUG, telegram.bot, {'message_id': 102, 'date': 1612818495, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:16,164, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:16,071, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:08:19,363, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:19,473, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:08:19,473, DEBUG, telegram.bot, {'message_id': 103, 'date': 1612818498, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:19,473, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:19,363, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:08:22,686, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:08:22,767, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:08:22,767, DEBUG, telegram.bot, {'message_id': 104, 'date': 1612818501, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:08:22,767, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:08:22,686, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:05,206, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 02:10:05,416, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:05,417, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 02:10:05,695, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:05,696, DEBUG, telegram.bot, {'message_id': 105, 'date': 1612818604, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:05,697, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:05,416, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:08,900, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:08,994, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:08,994, DEBUG, telegram.bot, {'message_id': 106, 'date': 1612818608, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:08,994, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:08,900, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:12,213, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:12,303, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:12,318, DEBUG, telegram.bot, {'message_id': 107, 'date': 1612818611, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:12,318, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:12,213, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:15,523, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:15,649, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:15,650, DEBUG, telegram.bot, {'message_id': 108, 'date': 1612818614, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:15,650, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:15,523, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:18,881, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:18,974, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:18,974, DEBUG, telegram.bot, {'message_id': 109, 'date': 1612818618, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:18,974, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:18,881, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:29,394, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 02:10:29,615, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:29,615, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 02:10:29,912, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:29,912, DEBUG, telegram.bot, {'message_id': 110, 'date': 1612818629, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:29,912, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:29,615, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:33,111, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:33,205, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:33,205, DEBUG, telegram.bot, {'message_id': 111, 'date': 1612818632, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:33,205, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:33,111, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:36,438, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:36,579, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:36,579, DEBUG, telegram.bot, {'message_id': 112, 'date': 1612818635, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:36,579, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:36,438, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:39,793, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:39,886, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 265
+2021-02-09 02:10:39,886, DEBUG, telegram.bot, {'message_id': 113, 'date': 1612818639, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:39,886, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:39,793, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 02:10:42,897, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 02:10:42,975, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 262
+2021-02-09 02:10:42,975, DEBUG, telegram.bot, {'message_id': 114, 'date': 1612818642, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error's limit exceeded. Time-out for set time", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 02:10:42,975, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 02:10:42,897, ERROR, __main__, Error's limit exceeded. Time-out for set time
