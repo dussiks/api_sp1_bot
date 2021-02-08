@@ -48,11 +48,9 @@ def get_homework_statuses(current_timestamp=None):
     params = {
         "from_date": current_timestamp,
     }
-    homework_statuses = requests.get(YP_URL, params=params, headers=headers)
     try:
-        homework_statuses.raise_for_status()
-        logger.debug("Connection with Yandex url succeeded")
-    except requests.exceptions.HTTPError as e:
+        homework_statuses = requests.get(YP_URL, params=params, headers=headers)
+    except requests.exceptions.RequestException as e:
         logger.error(f"Error in connection with Yandex url: {e}")
     else:
         return homework_statuses.json()
@@ -78,9 +76,8 @@ def send_message(message, bot_client):
 
 
 def main():
-    bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
     logger.debug("Telegram-bot initializated")
-    current_timestamp = 1612522563  # int(time.time())
+    current_timestamp = int(time.time())
     errors_counter = 0
     old_hw_status = None
     while True:

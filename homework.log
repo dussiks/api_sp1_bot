@@ -476,3 +476,39 @@ AttributeError: 'NoneType' object has no attribute 'get'
 2021-02-09 01:47:43,576, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 693
 2021-02-09 01:47:43,576, DEBUG, telegram.bot, {'message_id': 92, 'date': 1612817262, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
 2021-02-09 01:47:43,576, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:55:43,479, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:55:43,745, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:55:43,745, INFO, __main__, sending message to Telegram-chat
+2021-02-09 01:55:43,745, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:55:43,760, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:55:44,012, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 693
+2021-02-09 01:55:44,012, DEBUG, telegram.bot, {'message_id': 93, 'date': 1612817743, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:55:44,012, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:56:09,207, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:56:09,422, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:56:09,422, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:56:09,422, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:56:09,682, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 264
+2021-02-09 01:56:09,683, DEBUG, telegram.bot, {'message_id': 94, 'date': 1612817768, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:56:09,684, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:56:09,422, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 01:56:12,911, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:56:12,911, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:56:12,989, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 264
+2021-02-09 01:56:12,989, DEBUG, telegram.bot, {'message_id': 95, 'date': 1612817772, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:56:12,989, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:56:12,911, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 01:56:16,196, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:56:16,196, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:56:16,289, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 264
+2021-02-09 01:56:16,305, DEBUG, telegram.bot, {'message_id': 96, 'date': 1612817775, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error: Expecting value: line 1 column 1 (char 0)', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:56:16,305, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:56:16,196, ERROR, __main__, Error: Expecting value: line 1 column 1 (char 0)
+2021-02-09 01:58:21,716, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:58:47,326, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:58:47,701, INFO, __main__, sending message to Telegram-chat
+2021-02-09 01:58:47,701, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:58:47,701, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:58:47,969, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 693
+2021-02-09 01:58:47,969, DEBUG, telegram.bot, {'message_id': 97, 'date': 1612817927, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:58:47,969, DEBUG, telegram.bot, Exiting: send_message
