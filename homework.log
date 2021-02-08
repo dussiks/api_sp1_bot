@@ -1,0 +1,478 @@
+2021-02-08 22:33:13,574, DEBUG, __main__, Telegram-bot initializated
+2021-02-08 22:33:13,869, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:33:19,161, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:33:24,393, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:33:29,575, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:33:34,592, ERROR, __main__, Error's limit exceeded
+2021-02-08 22:33:34,592, INFO, __main__, Message ready for sending to Telegram-chat
+2021-02-08 22:33:34,592, DEBUG, telegram.bot, Entering: send_message
+2021-02-08 22:33:34,592, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 22:33:34,983, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 269
+2021-02-08 22:33:35,014, DEBUG, telegram.bot, {'message_id': 45, 'date': 1612805614, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error's limit exceeded. Time-out for pointed duration", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-08 22:33:35,014, DEBUG, telegram.bot, Exiting: send_message
+2021-02-08 22:36:25,004, DEBUG, __main__, Telegram-bot initializated
+2021-02-08 22:36:25,222, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:36:25,222, INFO, __main__, Message ready for sending to Telegram-chat
+2021-02-08 22:36:25,222, DEBUG, telegram.bot, Entering: send_message
+2021-02-08 22:38:58,894, DEBUG, __main__, Telegram-bot initializated
+2021-02-08 22:38:59,097, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:38:59,097, INFO, __main__, Message ready for sending to Telegram-chat
+2021-02-08 22:38:59,097, DEBUG, telegram.bot, Entering: send_message
+2021-02-08 22:39:04,265, DEBUG, __main__, Telegram-bot initializated
+2021-02-08 22:39:04,495, ERROR, __main__, Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "homework.py", line 73, in main
+    new_homework = get_homework_statuses(current_timestamp)
+  File "homework.py", line 41, in get_homework_statuses
+    return homework_statuses.json()
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\requests\models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Python 3.8.5\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python 3.8.5\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-02-08 22:39:04,499, INFO, __main__, Message ready for sending to Telegram-chat
+2021-02-08 22:39:04,500, DEBUG, telegram.bot, Entering: send_message
+2021-02-08 22:40:08,504, DEBUG, telegram.bot, Entering: get_me
+2021-02-08 22:40:08,504, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 22:40:08,851, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "GET /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/getMe HTTP/1.1" 200 192
+2021-02-08 22:40:08,851, DEBUG, telegram.bot, {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2021-02-08 22:40:08,851, DEBUG, telegram.bot, Exiting: get_me
+2021-02-08 22:40:08,851, DEBUG, telegram.bot, Entering: get_my_commands
+2021-02-08 22:40:08,929, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "GET /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/getMyCommands HTTP/1.1" 200 23
+2021-02-08 22:40:08,929, DEBUG, telegram.bot, []
+2021-02-08 22:40:08,929, DEBUG, telegram.bot, Exiting: get_my_commands
+2021-02-08 22:40:33,414, DEBUG, telegram.bot, Entering: get_me
+2021-02-08 22:40:33,414, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 22:40:33,665, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "GET /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/getMe HTTP/1.1" 401 58
+2021-02-08 22:42:20,635, DEBUG, telegram.bot, Entering: get_me
+2021-02-08 22:42:20,635, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 22:42:20,867, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "GET /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/getMe HTTP/1.1" 401 58
+2021-02-08 22:43:45,429, DEBUG, telegram.bot, Entering: get_me
+2021-02-08 22:43:45,430, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 22:43:45,682, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "GET /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/getMe HTTP/1.1" 401 58
+2021-02-08 22:45:25,689, DEBUG, telegram.bot, Entering: get_me
+2021-02-08 22:45:25,690, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 22:45:25,986, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "GET /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/getMe HTTP/1.1" 401 58
+2021-02-08 23:56:35,364, DEBUG, telegram.bot, Entering: send_message
+2021-02-08 23:56:35,379, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-08 23:56:35,708, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:00:28,355, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:00:28,740, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:00:28,741, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:00:28,973, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:00:28,974, ERROR, __main__, Unauthorized
+Traceback (most recent call last):
+  File "homework.py", line 79, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 59, in send_message
+    return bot_client.send_message(chat_id=CHAT_ID, text=message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\Dev\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 243, in _request_wrapper
+    raise Unauthorized(message)
+telegram.error.Unauthorized: Unauthorized
+2021-02-09 00:00:29,016, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:01:51,728, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:01:51,973, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:01:51,974, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:01:52,240, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:02:10,331, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:02:10,583, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:02:10,583, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:02:10,818, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:04:13,616, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:04:13,892, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:04:13,892, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:04:14,111, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:05:56,560, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:05:57,045, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:05:57,045, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:05:57,281, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:06:33,211, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:06:33,485, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:06:33,485, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:06:33,719, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:06:56,505, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:06:56,748, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:06:56,764, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:06:56,994, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:08:47,619, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 00:08:47,868, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:08:47,868, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:08:48,087, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:08:48,087, ERROR, __main__, Unauthorized
+2021-02-09 00:15:08,617, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:15:08,648, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:15:08,913, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM!/sendMessage HTTP/1.1" 401 58
+2021-02-09 00:15:28,839, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:15:28,839, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:15:29,121, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 220
+2021-02-09 00:15:29,136, DEBUG, telegram.bot, {'message_id': 46, 'date': 1612811728, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'null', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 00:15:29,136, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 00:16:09,419, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:16:09,419, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:16:09,672, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 400 80
+2021-02-09 00:16:29,472, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:16:29,472, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:16:29,722, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 400 84
+2021-02-09 00:16:53,944, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 00:16:53,945, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 00:16:54,177, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 400 84
+2021-02-09 00:50:42,420, INFO, __main__, dfdfdf
+2021-02-09 00:50:42,451, WARNING, __main__, warm
+2021-02-09 00:50:42,451, ERROR, __main__, ER@@@
+2021-02-09 00:57:19,722, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 00:57:52,206, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 00:58:24,515, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 00:59:15,766, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 00:59:39,835, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:00:58,113, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:24:55,663, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:24:56,009, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:24:56,009, INFO, __main__, sending message to Telegram-chat
+2021-02-09 01:24:56,009, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:24:56,009, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:24:56,784, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 693
+2021-02-09 01:24:56,786, DEBUG, telegram.bot, {'message_id': 47, 'date': 1612815895, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:24:56,788, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:25:30,294, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:27:28,400, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:27:28,588, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:27:28,588, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:27:28,948, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:27:28,948, DEBUG, telegram.bot, {'message_id': 48, 'date': 1612816048, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:27:28,948, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:27:28,588, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:27:28,968, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:27:29,107, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 485
+2021-02-09 01:27:29,107, DEBUG, telegram.bot, {'message_id': 49, 'date': 1612816048, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': '\'NoneType\' object has no attribute \'get\'\nTraceback (most recent call last):\n  File "homework.py", line 89, in main\n    if new_homework.get("homeworks"):\nAttributeError: \'NoneType\' object has no attribute \'get\'', 'entities': [{'type': 'url', 'offset': 84, 'length': 11}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:27:29,107, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:27:28,948, ERROR, __main__, 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "homework.py", line 89, in main
+    if new_homework.get("homeworks"):
+AttributeError: 'NoneType' object has no attribute 'get'
+2021-02-09 01:27:29,107, INFO, __main__, sending message to Telegram-chat
+2021-02-09 01:27:29,107, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:34,994, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:29:35,229, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:35,229, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:29:35,507, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:29:35,509, DEBUG, telegram.bot, {'message_id': 50, 'date': 1612816174, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:35,509, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:35,229, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:29:35,510, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:35,600, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:29:35,602, DEBUG, telegram.bot, {'message_id': 51, 'date': 1612816174, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:35,602, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:35,510, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:29:40,805, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:40,895, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:29:40,910, DEBUG, telegram.bot, {'message_id': 52, 'date': 1612816180, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:40,910, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:40,804, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:29:40,910, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:41,004, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:29:41,004, DEBUG, telegram.bot, {'message_id': 53, 'date': 1612816180, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:41,004, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:40,910, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:29:46,235, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:46,408, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:29:46,409, DEBUG, telegram.bot, {'message_id': 54, 'date': 1612816185, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:46,410, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:46,235, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:29:46,411, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:46,567, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:29:46,568, DEBUG, telegram.bot, {'message_id': 55, 'date': 1612816185, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:46,569, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:46,411, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:29:51,778, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:51,856, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:29:51,856, DEBUG, telegram.bot, {'message_id': 56, 'date': 1612816191, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:51,856, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:51,778, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:29:51,856, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:51,977, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:29:51,978, DEBUG, telegram.bot, {'message_id': 57, 'date': 1612816191, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:51,979, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:51,856, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:29:57,195, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:57,294, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:29:57,294, DEBUG, telegram.bot, {'message_id': 58, 'date': 1612816196, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:57,294, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:57,195, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:29:57,294, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:29:57,393, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:29:57,394, DEBUG, telegram.bot, {'message_id': 59, 'date': 1612816196, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:29:57,395, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:29:57,294, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:30:02,628, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:02,725, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:30:02,725, DEBUG, telegram.bot, {'message_id': 60, 'date': 1612816201, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:02,725, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:02,628, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:30:02,725, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:02,834, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:30:02,850, DEBUG, telegram.bot, {'message_id': 61, 'date': 1612816202, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:02,850, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:02,725, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:30:08,066, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:08,145, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:30:08,145, DEBUG, telegram.bot, {'message_id': 62, 'date': 1612816207, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:08,145, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:08,066, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:30:08,145, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:08,239, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:30:08,239, DEBUG, telegram.bot, {'message_id': 63, 'date': 1612816207, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:08,239, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:08,145, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:30:13,496, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:13,628, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:30:13,628, DEBUG, telegram.bot, {'message_id': 64, 'date': 1612816212, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:13,628, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:13,496, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:30:13,628, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:13,715, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:30:13,716, DEBUG, telegram.bot, {'message_id': 65, 'date': 1612816212, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:13,717, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:13,628, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:30:18,915, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:19,009, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:30:19,009, DEBUG, telegram.bot, {'message_id': 66, 'date': 1612816218, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:19,009, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:18,915, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:30:19,009, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:30:19,079, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:30:19,079, DEBUG, telegram.bot, {'message_id': 67, 'date': 1612816218, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:30:19,079, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:30:19,009, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:31:53,323, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:31:53,560, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:31:53,560, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:31:53,873, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:31:53,873, DEBUG, telegram.bot, {'message_id': 68, 'date': 1612816313, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:31:53,873, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:31:53,560, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:31:53,873, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:31:53,966, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:31:53,982, DEBUG, telegram.bot, {'message_id': 69, 'date': 1612816313, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:31:53,982, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:31:53,873, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:31:57,196, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:31:57,291, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:31:57,291, DEBUG, telegram.bot, {'message_id': 70, 'date': 1612816316, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:31:57,291, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:31:57,196, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:31:57,291, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:31:57,369, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:31:57,369, DEBUG, telegram.bot, {'message_id': 71, 'date': 1612816316, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:31:57,369, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:31:57,291, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:32:00,599, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:32:00,693, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:32:00,693, DEBUG, telegram.bot, {'message_id': 72, 'date': 1612816319, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:32:00,693, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:32:00,599, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:32:00,693, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:32:00,787, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:32:00,787, DEBUG, telegram.bot, {'message_id': 73, 'date': 1612816319, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:32:00,787, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:32:00,693, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:32:04,002, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:32:04,116, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:32:04,117, DEBUG, telegram.bot, {'message_id': 74, 'date': 1612816323, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:32:04,118, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:32:04,002, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:32:04,119, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:32:04,207, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:32:04,207, DEBUG, telegram.bot, {'message_id': 75, 'date': 1612816323, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:32:04,207, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:32:04,118, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:32:07,216, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:32:07,313, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 238
+2021-02-09 01:32:07,314, DEBUG, telegram.bot, {'message_id': 76, 'date': 1612816326, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error's limit exceeded", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:32:07,315, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:32:07,216, ERROR, __main__, Error's limit exceeded
+2021-02-09 01:45:13,215, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:45:13,423, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:13,424, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:45:13,749, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:13,764, DEBUG, telegram.bot, {'message_id': 77, 'date': 1612817112, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:13,764, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:13,422, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:13,764, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:13,842, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:13,842, DEBUG, telegram.bot, {'message_id': 78, 'date': 1612817113, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:13,842, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:13,764, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:17,071, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:17,230, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:17,230, DEBUG, telegram.bot, {'message_id': 79, 'date': 1612817116, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:17,230, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:17,071, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:17,230, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:17,355, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:17,355, DEBUG, telegram.bot, {'message_id': 80, 'date': 1612817116, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:17,355, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:17,230, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:20,569, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:20,694, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:20,694, DEBUG, telegram.bot, {'message_id': 81, 'date': 1612817119, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:20,694, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:20,569, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:20,694, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:20,773, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:20,788, DEBUG, telegram.bot, {'message_id': 82, 'date': 1612817119, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:20,788, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:20,694, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:24,011, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:24,087, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:24,087, DEBUG, telegram.bot, {'message_id': 83, 'date': 1612817123, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:24,087, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:24,011, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:24,087, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:24,183, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:24,183, DEBUG, telegram.bot, {'message_id': 84, 'date': 1612817123, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:24,183, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:24,087, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:27,390, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:27,520, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:27,523, DEBUG, telegram.bot, {'message_id': 85, 'date': 1612817126, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:27,524, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:27,390, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:27,524, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:27,652, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:27,652, DEBUG, telegram.bot, {'message_id': 86, 'date': 1612817126, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:27,652, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:27,524, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:30,936, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:31,086, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:31,086, DEBUG, telegram.bot, {'message_id': 87, 'date': 1612817130, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:31,086, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:30,936, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:31,086, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:31,205, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:31,206, DEBUG, telegram.bot, {'message_id': 88, 'date': 1612817130, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:31,207, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:31,086, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:34,434, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:34,538, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 421
+2021-02-09 01:45:34,538, DEBUG, telegram.bot, {'message_id': 89, 'date': 1612817133, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563', 'entities': [{'type': 'url', 'offset': 74, 'length': 79}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:34,538, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:34,434, ERROR, __main__, Error in connection with Yandex url: 404 Client Error: Not Found for url: https://praktikum.yandex.ru/api/user_api/homework_statuses?from_date=1612522563
+2021-02-09 01:45:34,538, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:34,634, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 263
+2021-02-09 01:45:34,636, DEBUG, telegram.bot, {'message_id': 90, 'date': 1612817133, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': "Error: 'NoneType' object has no attribute 'get'", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:34,636, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:45:34,538, ERROR, __main__, Error: 'NoneType' object has no attribute 'get'
+2021-02-09 01:45:47,692, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:45:47,928, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:45:47,928, INFO, __main__, sending message to Telegram-chat
+2021-02-09 01:45:47,928, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:45:47,928, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:45:48,256, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAH8cfIiMMKfn4TAXYeeU0X5Ctvtr-lkuPM/sendMessage HTTP/1.1" 200 693
+2021-02-09 01:45:48,256, DEBUG, telegram.bot, {'message_id': 91, 'date': 1612817147, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:45:48,256, DEBUG, telegram.bot, Exiting: send_message
+2021-02-09 01:47:41,727, DEBUG, __main__, Telegram-bot initializated
+2021-02-09 01:47:41,946, DEBUG, __main__, Connection with Yandex url succeeded
+2021-02-09 01:47:41,946, INFO, __main__, sending message to Telegram-chat
+2021-02-09 01:47:41,946, DEBUG, telegram.bot, Entering: send_message
+2021-02-09 01:47:41,946, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, Starting new HTTPS connection (1): api.telegram.org
+2021-02-09 01:47:43,576, DEBUG, telegram.vendor.ptb_urllib3.urllib3.connectionpool, https://api.telegram.org:443 "POST /bot1628021442:AAGxz2IrqDE1OfZUXwvbylf3sPk4B96YHXI/sendMessage HTTP/1.1" 200 693
+2021-02-09 01:47:43,576, DEBUG, telegram.bot, {'message_id': 92, 'date': 1612817262, 'chat': {'id': 753978165, 'type': 'private', 'first_name': 'Ildus'}, 'text': 'У вас проверили работу "dussiks__api_01_sms.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1628021442, 'first_name': 'Duss_bot', 'is_bot': True, 'username': 'dussiks_bot'}}
+2021-02-09 01:47:43,576, DEBUG, telegram.bot, Exiting: send_message
