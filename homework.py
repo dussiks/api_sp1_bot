@@ -1,6 +1,7 @@
 import os
 import time
 import logging
+import json
 
 import requests
 import telegram
@@ -10,10 +11,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PRAKTIKUM_TOKEN = os.getenv("PRAKTIKUM_TOKEN")
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-YP_URL = "https://praktikum.yandex.ru/api/user_api/homework_statuses/"
+PRAKTIKUM_TOKEN = os.environ["PRAKTIKUM_TOKEN"]
+TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
+CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+PRAKTIKUM_HOMEWORK_URL = "https://praktikum.yandex.ru/api/user_api/homework_statuses/"
 ERRORS_LIMIT = 10
 bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
 
@@ -48,26 +49,31 @@ def get_homework_statuses(current_timestamp=None):
     params = {
         "from_date": current_timestamp,
     }
+    homework_statuses = {}
     try:
-        hw_statuses = requests.get(YP_URL, params=params, headers=headers)
-    except requests.exceptions.RequestException as e:
+        homework_statuses = requests.get(
+            PRAKTIKUM_HOMEWORK_URL,
+            params=params,
+            headers=headers
+        ).json()
+    except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
         logger.error(f"Error in connection with Yandex url: {e}")
-    else:
-        return hw_statuses.json()
+    return homework_statuses
 
 
 def parse_homework_status(homework):
     hw_name = homework.get("homework_name")
+    if not hw_name:
+        hw_name = "(имя не задано)"
     hw_status = homework.get("status")
-    if hw_status:
-        if hw_status == "rejected":
-            verdict = 'К сожалению в работе нашлись ошибки.'
-        elif hw_status == "reviewing":
-            verdict = 'Работу взяли в работу. Проверка еще не завершилась.'
-        else:
-            verdict = ('Ревьюеру всё понравилось, можно приступать '
-                       'к следующему уроку.')
-        return f'У вас проверили работу "{hw_name}"!\n\n{verdict}'
+    homework_statuses = {
+        "rejected": "К сожалению в работе нашлись ошибки.",
+        "reviewing": "Работу взяли в работу. Проверка еще не завершилась.",
+        "approved": ("Ревьюеру всё понравилось, можно приступать "
+                     "к следующему уроку."),
+    }
+    verdict = homework_statuses.get(hw_status, "unknown status")
+    return f'У вас проверили работу "{hw_name}"!\n\n{verdict}'
 
 
 def send_message(message, bot_client):
@@ -79,24 +85,19 @@ def main():
     logger.debug("Telegram-bot initializated")
     current_timestamp = int(time.time())
     errors_counter = 0
-    old_hw_status = None
     while True:
         try:
             new_homework = get_homework_statuses(current_timestamp)
             if new_homework.get("homeworks"):
-                new_hw_status = new_homework.get("homeworks")[0]["status"]
-                if new_hw_status != old_hw_status:
-                    send_message(parse_homework_status(
-                                 new_homework.get("homeworks")[0]), bot_client)
-                    errors_counter = 0
-                    old_hw_status = new_hw_status
+                send_message(parse_homework_status(
+                             new_homework.get("homeworks")[0]), bot_client)
+                errors_counter = 0
             current_timestamp = new_homework.get("current_date",
                                                  current_timestamp)
             time.sleep(1200)
         except Exception as e:
             errors_counter += 1
             logger.error(f"Error: {e}")
-            print(errors_counter)
             time.sleep(3)
             if errors_counter > ERRORS_LIMIT:
                 logger.error("Error's limit exceeded. Time-out for set time")

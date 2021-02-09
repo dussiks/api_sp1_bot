@@ -23,3 +23,5 @@ media/
 db.sqlite3
 
 .vscode/
+
+homework.log
