@@ -63,9 +63,7 @@ def get_homework_statuses(current_timestamp=None):
 
 
 def parse_homework_status(homework):
-    hw_name = homework.get("homework_name")
-    if not hw_name:
-        hw_name = "(имя не задано)"
+    hw_name = homework.get("homework_name", "имя не задано")
     hw_status = homework.get("status")
     homework_statuses = {
         "rejected": "К сожалению в работе нашлись ошибки.",
